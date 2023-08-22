@@ -21,9 +21,14 @@
 
 **Prerequisites**: Ensure you have Python3 and `pip` installed.
 
-### Clone the repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/MaikeruDev/ParkScape.git
+```
+2. Navigate to the project directory and install the required packages:
+```bash
+cd ParkScape
+pip install -r requirements.txt
 ```
 
 ## Usage 
@@ -31,7 +36,7 @@ git clone https://github.com/MaikeruDev/ParkScape.git
 Navigate to the project directory and run:
 
 ```bash
-python parkscape.py
+python main.py
 ```
 
 Input the desired city name and view the results on the generated interactive map.
